@@ -1,0 +1,127 @@
+@media (max-width: 875px) {
+  .header-main {
+    display: none;
+  }
+  .burger-menu {
+    display: flex;
+  }
+  .main {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .cart-main:nth-child(2) {
+    display: none;
+  }
+  .cart-main:nth-child(3) {
+    display: none;
+  }
+  .cart-main:nth-child(3) {
+    display: none;
+  }
+  .top {
+    display: none;
+  }
+  .top-cart {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .top-cart .top-main {
+    display: flex;
+  }
+  .top-cart button {
+    width: 100%;
+    max-width: 330px;
+    border: 2px solid #a259ff;
+  }
+  .top-main {
+    flex-direction: row;
+    width: 100%;
+    min-width: 330px;
+    height: 120px;
+    text-align: start;
+  }
+
+  .main-year1 {
+    display: flex;
+  }
+  .main-year {
+    display: none;
+  }
+  .top-year h3 {
+    position: absolute;
+    right: 125px;
+  }
+  .main-content button {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .top-main:nth-child(6) {
+    display: none;
+  }
+  .top-main:nth-child(7) {
+    display: none;
+  }
+  .top-main:nth-child(8) {
+    display: none;
+  }
+  .top-main:nth-child(9) {
+    display: none;
+  }
+  .top-main:nth-child(10) {
+    display: none;
+  }
+  .top-main:nth-child(11) {
+    display: none;
+  }
+  .top-main:nth-child(12) {
+    display: none;
+  }
+  .Discover-content {
+    flex-direction: row;
+  }
+  .Discover-main {
+    flex-direction: column;
+    gap: 25px;
+  }
+  .Discover-main button {
+    width: 100%;
+    max-width: 300px;
+  }
+  .Discover {
+    display: none;
+  }
+}
+@media (max-width: 1025px) {
+  .header-main {
+    display: none;
+  }
+  .burger-menu {
+    display: flex;
+  }
+  .cart-main:nth-child(3) {
+    display: none;
+  }
+  .top-main {
+    display: flex;
+  }
+  .top-main:nth-child(7) {
+    display: none;
+  }
+  .top-main:nth-child(8) {
+    display: none;
+  }
+  .top-main:nth-child(9) {
+    display: none;
+  }
+  .top-main:nth-child(10) {
+    display: none;
+  }
+  .top-main:nth-child(11) {
+    display: none;
+  }
+  .top-main:nth-child(12) {
+    display: none;
+  }
+}
