@@ -84,6 +84,9 @@
   #img img:nth-child(2) {
     display: flex;
   }
+  #img img:nth-child(2) {
+    display: flex;
+  }
 }
 @media (max-width: 1025px) {
   .header-main {

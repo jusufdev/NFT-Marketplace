@@ -404,7 +404,7 @@ body {
 }
 .year-main img {
   width: 100%;
-  max-width: clamp(9.375rem, 7.784rem + 7.95vw, 13.75rem);
+  max-width: clamp(9.175rem, 7.784rem + 7.95vw, 13.75rem);
   filter: blur(2.5px);
 }
 .year-main img:hover {
@@ -493,17 +493,22 @@ body {
   width: 100%;
   max-width: 310px;
   display: flex;
+  flex-direction: column;
   gap: 10px;
   background: #3b3b3b;
   border-radius: 0px 0px 10px 10px;
   padding: 0px 15px;
 }
-.discover-year {
-  display: flex;
+.discover-year h2 {
+  width: 100%;
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
 }
 .Discover-ion {
   display: flex;
-  flex-direction: column;
+  gap: 10px;
+  align-items: center;
 }
 .discover-year img {
   width: 100%;
@@ -516,6 +521,19 @@ body {
 }
 .dis-year {
   display: flex;
+  justify-content: space-between;
+}
+.dis-year p {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  color: #858584;
+}
+.dis-year p span {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
 }
 #img {
   padding-block: 40px;
