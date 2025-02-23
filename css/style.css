@@ -432,9 +432,6 @@ body {
   padding-inline: clamp(0rem, -4.545rem + 22.73vw, 12.5rem)
     clamp(0rem, -0.682rem + 3.41vw, 1.875rem);
 }
-.Discover-content.Discover-main.Discover-cart {
-  display: none;
-}
 .Discover-content h1 {
   width: 100%;
   max-width: 400px;
@@ -476,6 +473,9 @@ body {
   font-size: 20px;
   color: #a259ff;
 }
+.Discover-main .Discover-cart {
+  display: none;
+}
 .Discover {
   display: flex;
   align-items: center;
@@ -492,61 +492,38 @@ body {
 .discover-year {
   width: 100%;
   max-width: 310px;
-  display: grid;
-  flex-direction: column;
+  display: flex;
   gap: 10px;
   background: #3b3b3b;
   border-radius: 0px 0px 10px 10px;
   padding: 0px 15px;
 }
-.discover-year h2 {
-  width: 100%;
-  max-width: 400px;
-  font-size: 22px;
-  font-weight: 600;
-  color: #fff;
-  font-family: Work Sans, sans-serif;
+.discover-year {
+  display: flex;
+}
+.Discover-ion {
+  display: flex;
+  flex-direction: column;
 }
 .discover-year img {
   width: 100%;
-  max-width: 120px;
+  max-width: 40px;
 }
-.Discover-ion {
-  position: absolute;
-}
-.Discover-ion h3 {
+.discover-year h3 {
   width: 100%;
-  max-width: 400px;
-  font-size: 16px;
-  font-weight: 400;
+  max-width: 20px;
   color: #fff;
-  font-family: Work Sans, sans-serif;
-  position: absolute;
-  top: 40px;
-  left: 32px;
 }
-.Discover-ion p {
+.dis-year {
+  display: flex;
+}
+#img {
+  padding-block: 40px;
+}
+#img img {
   width: 100%;
-  max-width: 400px;
-  font-size: 12px;
-  font-weight: 400;
-  color: #858584;
-  font-family: Space Mono, sans-serif;
-  position: absolute;
-  top: 100px;
-  left: 192px;
+  max-width: 1500px;
 }
-.Discover-ion p span {
-  width: 100%;
-  max-width: 400px;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 25px;
-  color: #fff;
-  font-family: Space Mono, sans-serif;
-}
-.Discover-ion p:nth-child(2) {
-  position: absolute;
-  top: 100px;
-  left: 22px;
+#img img:nth-child(2) {
+  display: none;
 }
