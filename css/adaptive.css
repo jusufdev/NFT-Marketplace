@@ -96,6 +96,38 @@
     flex-direction: row;
     width: 350px;
   }
+  .join {
+    flex-direction: column;
+    background: none;
+    align-items: center;
+  }
+  .join-top {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .join-top button {
+    width: 100%;
+    max-width: 350px;
+  }
+  .join-content button:nth-child(2) {
+    width: 100%;
+    max-width: 350px;
+  }
+  .footer {
+    flex-direction: column;
+  }
+  .footer-button {
+    flex-direction: column;
+    gap: 15px;
+  }
+  .footer-button button {
+    width: 100%;
+    max-width: 350px;
+  }
+  .footer-button button:nth-child(2) {
+    width: 100%;
+    max-width: 350px;
+  }
 }
 @media (max-width: 1025px) {
   .header-main {
