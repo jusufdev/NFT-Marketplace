@@ -404,7 +404,7 @@ body {
 }
 .year-main img {
   width: 100%;
-  max-width: clamp(9.175rem, 7.784rem + 7.95vw, 13.75rem);
+  max-width: clamp(7.5rem, 7.784rem + 7.95vw, 13.75rem);
   filter: blur(2.5px);
 }
 .year-main img:hover {
@@ -435,7 +435,7 @@ body {
 .Discover-content h1 {
   width: 100%;
   max-width: 400px;
-  font-size: 38px;
+  font-size: clamp(1.75rem, 1.523rem + 1.14vw, 2.375rem);
   font-weight: 600;
   color: #fff;
   font-family: Work Sans, sans-serif;
@@ -449,7 +449,7 @@ body {
 .Discover-main p {
   width: 100%;
   max-width: 400px;
-  font-size: 22px;
+  font-size: clamp(1rem, 0.864rem + 0.68vw, 1.375rem);
   font-weight: 400;
   color: #fff;
   font-family: Work Sans, sans-serif;
@@ -480,6 +480,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 15px;
 }
 .Discover-cart {
   display: flex;
@@ -497,7 +498,7 @@ body {
   gap: 10px;
   background: #3b3b3b;
   border-radius: 0px 0px 10px 10px;
-  padding: 0px 15px;
+  padding: 10px 15px;
 }
 .discover-year h2 {
   width: 100%;
@@ -544,4 +545,72 @@ body {
 }
 #img img:nth-child(2) {
   display: none;
+}
+#how {
+  padding-block: 40px;
+  padding-inline: clamp(0rem, -2.273rem + 11.36vw, 6.25rem);
+}
+.how-contnet {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 25px;
+}
+.how-contnet h1 {
+  width: 100%;
+  font-family: Work Sans, sans-serif;
+  font-size: clamp(1.75rem, 1.523rem + 1.14vw, 2.375rem);
+  font-weight: 600;
+  color: #fff;
+}
+.how-contnet p {
+  width: 100%;
+  max-width: 400px;
+  font-size: clamp(1rem, 0.864rem + 0.68vw, 1.375rem);
+  font-weight: 400;
+  color: #fff;
+  font-family: Work Sans, sans-serif;
+}
+.how {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+.how-main {
+  width: 100%;
+  max-width: 350px;
+  height: clamp(7.5rem, 0.227rem + 36.36vw, 27.5rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 15px;
+  /* padding: 15px 0px; */
+  background: #3b3b3b;
+  border-radius: 15px;
+}
+.how-main img {
+  width: 100%;
+  max-width: clamp(5.313rem, 2.472rem + 14.2vw, 13.125rem);
+}
+.how-main h2 {
+  width: 100%;
+  font-size: clamp(1rem, 0.864rem + 0.68vw, 1.375rem);
+  font-weight: 400;
+  color: #fff;
+  font-family: Work Sans, sans-serif;
+}
+.how-main p {
+  width: 100%;
+  max-width: 290px;
+  font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+  font-weight: 400;
+  color: #fff;
+  font-family: Work Sans, sans-serif;
+  line-height: clamp(1.125rem, 0.966rem + 0.8vw, 1.563rem);
+}
+.how-year {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }

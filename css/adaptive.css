@@ -87,6 +87,15 @@
   #img img:nth-child(2) {
     display: flex;
   }
+  .how {
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  }
+  .how-main {
+    flex-direction: row;
+    width: 350px;
+  }
 }
 @media (max-width: 1025px) {
   .header-main {
